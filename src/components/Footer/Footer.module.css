@@ -1,0 +1,22 @@
+.footer {
+  height: 200px;
+  background-color: #4bdf5d;
+}
+.icons {
+  color: white;
+ padding: 70px 150px;
+ width: 150px;
+ font-size: 40px;
+ margin: 20px;
+}
+img {
+  width: 90px;
+}
+.display {
+  display: flex;
+  padding: 70px;
+}
+.display span {
+color: white;
+padding: 20px 50px;
+}

@@ -1,0 +1,27 @@
+
+.NavItem a {
+  font-family: 'Libre Baskerville', serif;
+  display: block;
+  padding: 1rem;
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+.NavItem a.active {
+  color: rgb(126, 113, 113);
+}
+.NavItem a:hover {
+  color: rgb(126, 113, 113);
+}
+@media (max-width: 850px) {
+  .NavItem a {
+    flex: 0 0 100%;
+  }
+}
+@media (max-width: 850px) {
+  .Nav {
+   border-bottom: none;
+   border-right: 5px solid transparent;
+  }
+}
